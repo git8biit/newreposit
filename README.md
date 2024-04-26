@@ -16,6 +16,8 @@ VirtualBox
 LibreOffice  
 ## Инструкция по скачиванию и установке программ
 
+Команды для скачивания файлов с использованием терминала
+
 ```wget -O /home/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz https://github.com/git8biit/newreposit/blob/main/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
 wget -O /home/arduino-ide_nightly-20240425_Linux_64bit.zip https://github.com/git8biit/newreposit/blob/main/arduino-ide_nightly-20240425_Linux_64bit.zip
 wget -O /home/google-chrome-stable_current_amd64.deb https://github.com/git8biit/newreposit/blob/main/google-chrome-stable_current_amd64.deb
