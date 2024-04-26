@@ -29,4 +29,4 @@ wget -O /home/code_1.88.1-1712771838_amd64.deb https://github.com/git8biit/newre
 
 wget -O /home/org.gimp.GIMP.flatpakref https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/org.gimp.GIMP.flatpakref
 
-wget -O /home/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb'''
+wget -O /home/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb
