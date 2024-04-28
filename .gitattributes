@@ -1,2 +1,2 @@
+ForReposB filter=lfs diff=lfs merge=lfs -text
 README.md filter=lfs diff=lfs merge=lfs -text
-Для[[:space:]]репозитория[[:space:]][[:space:]]Б filter=lfs diff=lfs merge=lfs -text
