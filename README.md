@@ -4,42 +4,4 @@
 <img src="https://img.shields.io/badge/Arduino-00878F?style=for-the-badge&logo=arduino&logoColor=white"/> <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white"/>
 <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Kumir-354fb6?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/gimp-5C5543?style=for-the-badge&logo=gimp&logoColor=white"/> <img src="https://img.shields.io/badge/virtualbox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white"/>
-# Репозиторий для установки необходимых учебных программ по информатике и ИКТ на OC Linux Ubuntu
-## Список программ, которые можно скачать из данного репозитория
-Arduino  
-Google Chrome  
-PyCharm  
-Кумир  
-Visual Studio Code  
-Gimp  
-VirtualBox  
-LibreOffice  
-## Инструкция по скачиванию и установке программ
 
-```
-sudo apt-get install git build-essential cmake qt5-default
- qtscript5-dev libssl-dev qttools5-dev qttools5-dev-tools
- qtmultimedia5-dev libqt5svg5-dev libqt5webkit5-dev
- libsdl2-dev libasound2 libxmu-dev libxi-dev freeglut3-dev
- libasound2-dev libjack-jackd2-dev libxrandr-dev
- libqt5xmlpatterns5-dev libqt5xmlpatterns5
-
-```
-
-Команды для скачивания файлов с использованием терминала
-
-```
-wget -O /home/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz https://github.com/git8biit/newreposit/blob/main/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
-wget -O /home/arduino-ide_nightly-20240425_Linux_64bit.zip https://github.com/git8biit/newreposit/blob/main/arduino-ide_nightly-20240425_Linux_64bit.zip
-wget -O /home/google-chrome-stable_current_amd64.deb https://github.com/git8biit/newreposit/blob/main/google-chrome-stable_current_amd64.deb
-wget -O /home/pycharm-community-2024.1-aarch64.tar.gz https://github.com/git8biit/newreposit/blob/main/pycharm-community-2024.1-aarch64.tar.gz
-
-wget -O /home/Kumir2X-1462.tar.gz https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/Kumir2X-1462.tar.gz
-
-wget -O /home/blender_3.6.2%2Bdfsg.orig.tar.xz https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/blender_3.6.2%2Bdfsg.orig.tar.xz
-
-wget -O /home/code_1.88.1-1712771838_amd64.deb https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/code_1.88.1-1712771838_amd64.deb
-
-wget -O /home/org.gimp.GIMP.flatpakref https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/org.gimp.GIMP.flatpakref
-
-wget -O /home/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb https://github.com/git8biit/newreposit/blob/main/%D0%94%D0%BB%D1%8F%20%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%20%D0%91/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb
