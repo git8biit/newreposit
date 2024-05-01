@@ -45,6 +45,11 @@ sudo snap install audacity
 
 sudo apt install checkinstall build-essential autoconf automake
 
+sudo apt update && sudo apt upgrade
+
+sudo apt install inkscape
+
+
 #Кумир
 sudo apt install git
 git clone https://git.niisi.ru/kumir/kumir2.git
