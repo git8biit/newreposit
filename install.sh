@@ -4,6 +4,12 @@ mkdir ~/install
 
 wget https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
 
+cd ~/install/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i *.deb
+
+sudo apt-get -f install
+
 #dpkg --install https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
 #dpkg --install https://github.com/git8biit/newreposit/raw/main/code_1.88.1-1712771838_amd64.deb?download= -O ~/install/code_1.88.1-1712771838_amd64.deb
 #dpkg --install https://github.com/git8biit/newreposit/raw/main/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb?download= -O ~/install/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb
