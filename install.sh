@@ -34,6 +34,8 @@ cd ~/install
 mkdir ~/install/LibreOffice_24.2.2_Linux_x86-64_deb
 tar -xvf LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
 cd ~/install/LibreOffice_24.2.2.2_Linux_x86-64_deb/DEBS
+sudo dpkg -i *.deb
+sudo apt-get -f install
 
 cd ~/install
 mkdir ~/install/gpycharm-community-2024.1-aarch64
