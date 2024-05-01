@@ -37,9 +37,9 @@ cd ~/install/LibreOffice_24.2.2.2_Linux_x86-64_deb/DEBS
 sudo dpkg -i *.deb
 sudo apt-get -f install
 
-cd ~/install
-mkdir ~/install/gpycharm-community-2024.1-aarch64
-tar -xvf gpycharm-community-2024.1-aarch64.tar.gz
+#cd ~/install
+#mkdir ~/install/gpycharm-community-2024.1-aarch64
+#tar -xvf gpycharm-community-2024.1-aarch64.tar.gz
 
 sudo apt update
 
@@ -69,7 +69,7 @@ sudo apt update && sudo apt upgrade
 
 sudo apt install inkscape
 
-
+cd ~/install
 #Кумир
 sudo apt install git
 git clone https://git.niisi.ru/kumir/kumir2.git
