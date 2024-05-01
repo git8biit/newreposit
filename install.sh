@@ -1,0 +1,35 @@
+#!/bin/bash
+dpkg --install https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download=
+dpkg --install https://github.com/git8biit/newreposit/raw/main/code_1.88.1-1712771838_amd64.deb?download=
+dpkg --install https://github.com/git8biit/newreposit/raw/main/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb?download=
+
+mkdir ~/install
+wget https://github.com/git8biit/newreposit/raw/main/Kumir2X-1462.tar.gz?download= -O ~/install/Kumir2X-1462.tar.gz
+wget https://github.com/git8biit/newreposit/raw/main/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz?download= -O ~/install/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
+wget https://github.com/git8biit/newreposit/raw/main/pycharm-community-2024.1-aarch64.tar.gz?download= -O ~/install/gpycharm-community-2024.1-aarch64.tar.gz
+wget https://github.com/git8biit/newreposit/raw/main/arduino-1.8.19-linuxaarch64.tar.xz?download= -O ~/install/arduino-1.8.19-linuxaarch64.tar.xz
+wget https://github.com/git8biit/newreposit/raw/main/blender_3.6.2+dfsg.orig.tar.xz?download= -O ~/install/blender_3.6.2+dfsg.orig.tar.xz
+
+cd ~/install
+mkdir ~/install/LibreOffice_24.2.2_Linux_x86-64_deb
+tar -xvf LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
+
+cd ~/install
+mkdir ~/install/gpycharm-community-2024.1-aarch64
+tar -xvf gpycharm-community-2024.1-aarch64.tar.gz
+
+
+#Кумир
+git clone https://git.niisi.ru/kumir/kumir2.git
+sudo apt install cmake
+sudo apt-get install libqt5x11extras5-dev
+sudo apt-get install qtscript5-dev
+sudo apt-get install libminiupnpc-dev
+sudo apt-get install qttools5-dev-tools
+
+mkdir build
+
+cd build
+cmake -DCMAKE_BUILD_TYPE=Release -DUSE_QT=5 ..
+
+make
