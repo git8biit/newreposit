@@ -4,7 +4,7 @@ mkdir ~/install
 
 wget https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
 
-cd ~/install/google-chrome-stable_current_amd64.deb
+cd ~/install/
 
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
