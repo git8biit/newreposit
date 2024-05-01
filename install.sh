@@ -2,10 +2,11 @@
 
 mkdir ~/install
 
-dpkg --install https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
-dpkg --install https://github.com/git8biit/newreposit/raw/main/code_1.88.1-1712771838_amd64.deb?download= -O ~/install/code_1.88.1-1712771838_amd64.deb
-dpkg --install https://github.com/git8biit/newreposit/raw/main/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb?download= -O ~/install/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb
+wget https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
 
+#dpkg --install https://github.com/git8biit/newreposit/raw/main/google-chrome-stable_current_amd64.deb?download= -O ~/install/google-chrome-stable_current_amd64.deb
+#dpkg --install https://github.com/git8biit/newreposit/raw/main/code_1.88.1-1712771838_amd64.deb?download= -O ~/install/code_1.88.1-1712771838_amd64.deb
+#dpkg --install https://github.com/git8biit/newreposit/raw/main/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb?download= -O ~/install/virtualbox-7.0_7.0.16-162802~Ubuntu~jammy_amd64.deb
 
 wget https://github.com/git8biit/newreposit/raw/main/Kumir2X-1462.tar.gz?download= -O ~/install/Kumir2X-1462.tar.gz
 wget https://github.com/git8biit/newreposit/raw/main/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz?download= -O ~/install/LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
