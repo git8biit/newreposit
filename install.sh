@@ -33,7 +33,7 @@ wget https://github.com/git8biit/newreposit/raw/main/blender_3.6.2+dfsg.orig.tar
 cd ~/install
 mkdir ~/install/LibreOffice_24.2.2_Linux_x86-64_deb
 tar -xvf LibreOffice_24.2.2_Linux_x86-64_deb.tar.gz
-cd ~/install/LibreOffice_24.2.2.2_Linux_x86-64_deb
+cd ~/install/LibreOffice_24.2.2.2_Linux_x86-64_deb/DEBS
 
 cd ~/install
 mkdir ~/install/gpycharm-community-2024.1-aarch64
